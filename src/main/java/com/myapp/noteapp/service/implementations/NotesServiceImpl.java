@@ -83,7 +83,7 @@ public class NotesServiceImpl implements NotesService {
                 .toList();
     }
 
-    // DTO → Entity dönüşüm
+    // DTO → Entity 
     private Notes dtoToNotes(NotesDto dto) {
         Notes notes = new Notes();
         notes.setTitle(dto.getTitle());
@@ -92,7 +92,7 @@ public class NotesServiceImpl implements NotesService {
         return notes;
     }
 
-    // Entity → DTO dönüşüm
+    // Entity → DTO
     private NotesDto notesToDto(Notes notes) {
         NotesDto dto = new NotesDto();
         dto.setID(notes.getId());
