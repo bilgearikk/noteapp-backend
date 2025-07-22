@@ -8,7 +8,6 @@ import com.myapp.noteapp.repositories.UserRepository;
 import com.myapp.noteapp.service.NotesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.w3c.dom.ls.LSException;
 
 import java.util.List;
 import java.util.stream.Collectors;
